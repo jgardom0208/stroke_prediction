@@ -1,0 +1,51 @@
+# ============================
+# Jupyter Notebooks
+# ============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Jupyter runtime files
+.jupyter/
+
+# ============================
+# Python / Caché
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Archivos temporales
+*.log
+*.tmp
+
+# ============================
+# Virtualenvs
+# ============================
+.venv/
+venv/
+env/
+
+# ============================
+# Poetry
+# ============================
+# Si usas Poetry, normalmente se ignoran estos:
+poetry.lock
+# (Si quieres versionar poetry.lock, bórralo de la lista)
+
+# Cache de Poetry
+.cache/pypoetry/
+.pypoetry/
+
+# ============================
+# Archivos de sistema
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# VSCode / IDEs
+# ============================
+.vscode/
+.idea/
